@@ -13,3 +13,7 @@ header + nav ul li {display: inline-block; margin: 0; padding: 0;}
 header + nav ul li a {text-decoration: none; display: block; padding: 0 10px; margin: 0 5px; color: #ccc;}
 header + nav ul li a:hover {border-color: #ccc; color: #e0e0e0;}
 main {background: #d2d1d0 url("https://i.imgur.com/N55CnWX.png") repeat-x top left; background: -webkit-gradient(linear, 50% 0%, 50% 300, color-stop(0%, #e3e3e2), color-stop(100%, #d2d1d0)); background: -webkit-linear-gradient(#e3e3e2 0%,#d2d1d0 300px); background: -moz-linear-gradient(#e3e3e2 0%,#d2d1d0 300px); background: -o-linear-gradient(#e3e3e2 0%,#d2d1d0 300px); background: linear-gradient(#e3e3e2 0%,#d2d1d0 300px); border-top: 1px solid #fff; line-height: 18px; margin: 0 auto; min-height: 540px; padding: 20px 0 30px; border-top: 0; padding-top: 20px; padding: 10px;}
+.shadow {border: 1px solid #bbb;}
+.shadow .inner {margin: -2px 0px 0px -2px; border: 1px solid #bbb; background-color: #f4f4f4; background-image: url("https://i.imgur.com/QXcZbO7.png"); background-repeat: repeat-x;}
+.shadow .inner .border {border: 1px solid #fefefe; background-color: #f4f4f4; padding: 10px;}
+.shadow .inner .border .content-amazing {background: url("https://i.imgur.com/VEKOjBc.png") center center no-repeat #333; -webkit-background-size: cover; background-size: cover; color: #fff; line-height: 5; text-align: center; font-size: 2.5em; text-shadow: 0 0 3px rgba(255, 255, 255, 0.75);}
