@@ -20,7 +20,12 @@ main {background: #d2d1d0 url("https://i.imgur.com/N55CnWX.png") repeat-x top le
 .space-up {margin-top: 10px;}
 .cols {display: flex; column-gap: 10px; row-gap: 10px; flex-wrap: wrap;}
 .cols .col {flex-grow: 1; min-width: 200px; max-width: 100%;}
+h2 {font-weight: 300; margin: 5px 0;}
 footer {background-color: #333; border-bottom: 1px solid #444; border-top: 1px solid #383838; -moz-box-shadow: 0 2px 0 0 #262626,0 -1px 0 0 #171717; box-shadow: 0 2px 0 0 #262626, 0 -1px 0 0 #171717; color: #8f887c; text-align: center;}
+footer p small {font-size: 0.9em;}
+footer p small a {font-size: 1.125em;}
+footer p a {color: #ff2d00; text-decoration: none;}
+footer p a:hover {color: #ffa500;}
 footer + aside {background-color: #232323; border-bottom: 1px solid #151515; margin-top: 2px; color: #837e76; text-align: center;}
 footer + aside p {margin: 0; line-height: 2.25;}
 
