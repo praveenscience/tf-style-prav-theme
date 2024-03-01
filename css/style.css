@@ -12,3 +12,4 @@ header + nav {text-align: center; background-color: #333; border-top: 1px solid 
 header + nav ul li {display: inline-block; margin: 0; padding: 0;}
 header + nav ul li a {text-decoration: none; display: block; padding: 0 10px; margin: 0 5px; color: #ccc;}
 header + nav ul li a:hover {border-color: #ccc; color: #e0e0e0;}
+main {background: #d2d1d0 url("https://i.imgur.com/N55CnWX.png") repeat-x top left; background: -webkit-gradient(linear, 50% 0%, 50% 300, color-stop(0%, #e3e3e2), color-stop(100%, #d2d1d0)); background: -webkit-linear-gradient(#e3e3e2 0%,#d2d1d0 300px); background: -moz-linear-gradient(#e3e3e2 0%,#d2d1d0 300px); background: -o-linear-gradient(#e3e3e2 0%,#d2d1d0 300px); background: linear-gradient(#e3e3e2 0%,#d2d1d0 300px); border-top: 1px solid #fff; line-height: 18px; margin: 0 auto; min-height: 540px; padding: 20px 0 30px; border-top: 0; padding-top: 20px; padding: 10px;}
