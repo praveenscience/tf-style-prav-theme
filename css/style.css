@@ -23,3 +23,8 @@ main {background: #d2d1d0 url("https://i.imgur.com/N55CnWX.png") repeat-x top le
 footer {background-color: #333; border-bottom: 1px solid #444; border-top: 1px solid #383838; -moz-box-shadow: 0 2px 0 0 #262626,0 -1px 0 0 #171717; box-shadow: 0 2px 0 0 #262626, 0 -1px 0 0 #171717; color: #8f887c; text-align: center;}
 footer + aside {background-color: #232323; border-bottom: 1px solid #151515; margin-top: 2px; color: #837e76; text-align: center;}
 footer + aside p {margin: 0; line-height: 2.25;}
+
+@media screen and (max-width: 640px) {
+  header h1, header nav {float: none; text-align: center;}
+  header nav {margin-top: 10px;}
+}
