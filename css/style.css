@@ -17,3 +17,4 @@ main {background: #d2d1d0 url("https://i.imgur.com/N55CnWX.png") repeat-x top le
 .shadow .inner {margin: -2px 0px 0px -2px; border: 1px solid #bbb; background-color: #f4f4f4; background-image: url("https://i.imgur.com/QXcZbO7.png"); background-repeat: repeat-x;}
 .shadow .inner .border {border: 1px solid #fefefe; background-color: #f4f4f4; padding: 10px;}
 .shadow .inner .border .content-amazing {background: url("https://i.imgur.com/VEKOjBc.png") center center no-repeat #333; -webkit-background-size: cover; background-size: cover; color: #fff; line-height: 5; text-align: center; font-size: 2.5em; text-shadow: 0 0 3px rgba(255, 255, 255, 0.75);}
+.space-up {margin-top: 10px;}
