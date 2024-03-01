@@ -18,3 +18,5 @@ main {background: #d2d1d0 url("https://i.imgur.com/N55CnWX.png") repeat-x top le
 .shadow .inner .border {border: 1px solid #fefefe; background-color: #f4f4f4; padding: 10px;}
 .shadow .inner .border .content-amazing {background: url("https://i.imgur.com/VEKOjBc.png") center center no-repeat #333; -webkit-background-size: cover; background-size: cover; color: #fff; line-height: 5; text-align: center; font-size: 2.5em; text-shadow: 0 0 3px rgba(255, 255, 255, 0.75);}
 .space-up {margin-top: 10px;}
+.cols {display: flex; column-gap: 10px; row-gap: 10px; flex-wrap: wrap;}
+.cols .col {flex-grow: 1; min-width: 200px; max-width: 100%;}
