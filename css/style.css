@@ -8,3 +8,7 @@ header nav ul,
 header nav ul li {display: inline-block; margin: 2px 0 0; padding: 0;}
 header nav ul li a {text-decoration: none; display: block; padding: 5px 10px; margin: 0 5px; color: #ccc; border: 1px solid #a0a0a0; border-radius: 5px;}
 header nav ul li a:hover {border-color: #ccc; color: #e0e0e0;}
+header + nav {text-align: center; background-color: #333; border-top: 1px solid #383838; border-bottom: 1px solid #444; -moz-box-shadow: 0 2px 0 0 #262626,0 -1px 0 0 #171717; box-shadow: 0 2px 0 0 #262626, 0 -1px 0 0 #171717;}
+header + nav ul li {display: inline-block; margin: 0; padding: 0;}
+header + nav ul li a {text-decoration: none; display: block; padding: 0 10px; margin: 0 5px; color: #ccc;}
+header + nav ul li a:hover {border-color: #ccc; color: #e0e0e0;}
